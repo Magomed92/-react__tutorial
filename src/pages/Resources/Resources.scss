@@ -1,0 +1,36 @@
+.resources {
+  display: flex;
+  margin-top: 54px;
+  margin-left: 54px;
+  .white__block {
+    padding-left: 33px;
+    margin-bottom: 40px;
+    h3 {
+      margin-left: 0;
+      margin-bottom: 0;
+    }
+  }
+  &__content {
+    display: flex;
+    flex-direction: column;
+    a {
+      color: inherit;
+      text-decoration: none;
+    }
+    div {
+      padding-right: 28px;
+      display: flex;
+      justify-content: space-between;
+      padding-top: 15px;
+      align-items: center;
+      > span {
+        max-width: 380px;
+        line-height: 33px;
+        cursor: pointer;
+        &:hover {
+          color: #07a287;
+        }
+      }
+    }
+  }
+}

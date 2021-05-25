@@ -1,0 +1,16 @@
+.btn {
+  display: flex;
+  align-items: center;
+  button {
+    &:hover {
+      background-color: #aef3e3;
+    }
+    padding: 17px 26px;
+    border-radius: 53px;
+    background-color: #edfaf7;
+    color: #1ba089;
+    svg {
+      margin-right: 5px;
+    }
+  }
+}

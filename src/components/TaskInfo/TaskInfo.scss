@@ -1,0 +1,58 @@
+.task {
+  padding: 17px 35px;
+  &:hover {
+    background: rgba(7, 162, 135, 0.05);
+    cursor: pointer;
+  }
+  display: flex;
+  align-items: center;
+
+  p {
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 19px;
+  }
+  span {
+    font-size: 14px;
+    font-weight: 500;
+    line-height: 16px;
+    color: #828694;
+  }
+}
+
+.task__icon {
+  position: relative;
+  width: 45px;
+  height: 45px;
+  border-radius: 50%;
+  margin-right: 20px;
+  svg {
+    position: absolute;
+    z-index: 1;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+  }
+  &--complete {
+    background-color: #e7f8f5;
+    svg {
+      fill: #0bb89a;
+    }
+  }
+  &--decline {
+    background-color: #fceded;
+    svg {
+      fill: #ec8383;
+    }
+  }
+  &--pending {
+    background-color: #fef3e9;
+    svg {
+      fill: #f98f2e;
+    }
+  }
+}
+
+.task__status {
+  text-transform: capitalize;
+}

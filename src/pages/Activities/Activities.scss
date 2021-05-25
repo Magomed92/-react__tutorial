@@ -1,0 +1,40 @@
+.activities {
+  display: flex;
+  margin-top: 54px;
+  margin-left: 54px;
+}
+.tasks {
+  padding: 33px 0;
+  width: 517px;
+  background: #ffffff;
+  box-shadow: 0px 10px 30px rgba(0, 0, 0, 0.03);
+  border-radius: 10px;
+  margin-right: 35px;
+  h3 {
+    margin-left: 35px;
+    margin-bottom: 33px;
+  }
+}
+.task__btn {
+  margin-top: 27px;
+  margin-left: 34px;
+}
+.complete {
+  line-height: 20px;
+  padding: 33px 35px 0;
+  width: 424px;
+  height: 166px;
+  background: #ffffff;
+  box-shadow: 0px 10px 30px rgba(0, 0, 0, 0.03);
+  border-radius: 10px;
+}
+.complete__title {
+  font-size: 1.17em;
+  font-weight: 700;
+}
+.complete__result {
+  font-weight: 300;
+  font-style: normal;
+  font-size: 56px;
+  line-height: 65px;
+}

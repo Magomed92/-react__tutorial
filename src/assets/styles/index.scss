@@ -1,0 +1,40 @@
+body {
+  margin: 0;
+  background-color: #f5f6f8;
+  font-family: Roboto;
+  box-sizing: border-box;
+}
+
+ul,
+li,
+h1,
+h2,
+h3,
+h4,
+p {
+  margin: 0;
+  padding: 0;
+}
+
+li {
+  list-style-type: none;
+}
+
+.main {
+  display: flex;
+}
+.section {
+  width: 100%;
+}
+.white__block {
+  padding: 33px 0;
+  width: 517px;
+  background: #ffffff;
+  box-shadow: 0px 10px 30px rgba(0, 0, 0, 0.03);
+  border-radius: 10px;
+  margin-right: 35px;
+  h3 {
+    margin-left: 35px;
+    margin-bottom: 33px;
+  }
+}
